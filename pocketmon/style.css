@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    cursor: none;
+  }
+  /* canvas */
+canvas{
+    margin: 0 auto;
+    display: block;
+}
+
+  /* mouse */
+  .mouse_img {
+    position: absolute;
+    width: 30px;
+  }
+  .tag {
+    position: absolute;
+    font-size: 20px;
+    margin: 20px 40px 20px;
+  }
+  /* .link:hover { curosr : url(./images/mouse.png) 20 30, url(./images/mouse.png) 20 30, auto; } */
